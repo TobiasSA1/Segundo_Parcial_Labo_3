@@ -211,9 +211,9 @@ function cargarFormulario(formulario, ...datos) {
   formulario.fechaCreacion.value = datos[3];
   formulario.precioActual.value = datos[4];
   formulario.consenso.value = datos[5];
-  formulario.circulacion.value = datos[6];
+  formulario.cantidadCirculacion.value = datos[6];
   formulario.algoritmo.value = datos[7];
-  formulario.pagina.value = datos[8];
+  formulario.sitioWeb.value = datos[8];
 }
 
 function escuchandoBtnDeleteAll() {
